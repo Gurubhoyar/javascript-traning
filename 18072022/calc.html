@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+    <div class="calc">
+        <p>calculator</p>
+        <div class="input">
+            <input type="text" id="number1" value="0" />
+            <input type="text" id="number2" value="0" />
+        </div>
+        <div class="button-block1">
+        <button onclick="addition()">Addition</button>
+        <button onclick="substraction()">Substraction</button>
+    </div>
+    <div class="button-block2">
+        <button onclick=" multiplication()">muliplication</button>
+        <button onclick="division()">Division</button>
+        </div>
+        <div class="result"> Your Output :
+            <span id="result"></span>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+
+</html>

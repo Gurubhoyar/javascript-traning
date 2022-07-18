@@ -1,0 +1,97 @@
+.result {
+    margin-top: 20px;
+    width: 400px;
+    display: inline-block;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.calc {
+    width: 500px;
+    margin: 20px auto;
+    border: .5px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0 black;
+
+
+}
+
+.button-block1 {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.button-block2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+input {
+    width: 50%;
+    box-shadow: 0 0px 13px 1px grey inset;
+    margin: 10px;
+    
+    border-radius: 20px;
+    height: 40px;
+    text-align: center;
+}
+
+input:focus {
+
+    width: 50%;
+    box-shadow: 0 0px 13px 1px grey ;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+    height: 40px;
+    text-align: center;
+}
+
+
+.input {
+    display: flex;
+    padding: 20px;
+
+}
+
+button {
+    box-shadow: 0 0px 13px 1px grey;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+button:focus {
+    box-shadow: 0 0px 13px 1px grey;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+    font-family: cursive;
+    text-transform: uppercase;
+
+    border-bottom: 1px solid;
+
+}
+
+body {
+    background-color: cadetblue;
+}
