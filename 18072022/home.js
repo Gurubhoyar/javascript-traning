@@ -1,0 +1,17 @@
+var num1 = " [First no. is = 24 /";
+var num2 = " Second no. is = 100 /";
+var num3 = " Third no. is = 200 /]";
+document.write (num1,num2,num3, '<br/>');
+var number1 = 24;
+var number2 = 100;
+var number3 = 200;
+var addition = number1 + number2 + number3;
+var substraction = number1 - number2 - number3;
+var multiply = number1 * number2 * number3;
+var multi = number2 * number3;
+var div = number1 / number2;
+document.write ('Addition :',addition, '<br/>');
+document.write ('Subtraction : ',substraction, '<br/>');
+document.write ('Multiplication :',multiply, '<br/>');
+document.write ('Multiplication Of 2nd and 3rd No. :',multi, '<br/>');
+document.write ('Division Of 1st and 2nd No. :',div, '<br/>');
