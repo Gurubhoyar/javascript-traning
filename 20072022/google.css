@@ -1,0 +1,111 @@
+.block1{
+   
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.block1-content{
+    display: flex;
+    width: 750px;
+    margin: 20px auto;
+    border: .5px solid gray;
+    padding: 10px;
+    padding-bottom: 40px;
+    border-radius: 8px;
+}
+.left-block{
+    
+    padding: 20px;
+}
+.right-block{
+    
+}
+.creat-text{
+    padding-top: 10px;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-input1{
+    display: flex;
+    padding-top: 7px;
+    
+}
+.username-input{
+    width: 90%;
+}
+.img-right{
+    width: 202px;
+    padding-top: 107px;
+    height: 187px;
+}
+
+.smalltext{
+    margin: 0px;
+    font-size: 12px;
+    color: grey;
+}
+input{
+    padding: 5px 10px;
+    margin-top: 20px;
+}
+.user{
+    width: 400px;
+}
+.last-line{
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.last-line span{color: blue;}
+.next{
+    float: right;
+    background-color:#1a73e8;
+    border-radius: 4px;
+    padding: 5px 10px;
+    color: white!important;
+    margin-right: 14px;
+}
+.input-right{
+    margin-right: 10px;
+    
+}
+.img-lower-text{
+    text-align: center;
+    font-size: 13px;
+}
+.block2{
+    width: 750px ;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    padding-top: 35px;
+}
+.last-block-footer span{
+    padding-left: 10px;
+}
+.gb{
+    color: red;
+    box-shadow: 0 0 10px 0 gray;
+    width: 50%;
+}
+.firsttext{
+    padding-top: 10px;
+    font-size: 16px;
+    margin: 0px;
+}
+.error-block{
+    color: red;
+    font-size: 10px;
+}
+.submit{
+    width: 400px;
+    background-color: #1a73e8;
+    color: bisque;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: block!important;
+}

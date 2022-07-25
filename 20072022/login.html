@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    
+    <form>
+        <h1>Login Form</h1>
+        <div class="input-text">
+            <label>Username</label>
+            <input type="text" id="username" placeholder="username" />
+            <div id="usererror" class="errortext"></div>
+        </div>
+        <div class="input-text">
+            <label> Password</label>
+            <input type="password" id="password" placeholder="password" length="8" />
+            <div id="passerror" class="errortext"></div>
+        </div>
+        <div id="allerror" class="errortext"></div> 
+        <div class="input-text">
+            <button type="button" onclick="login()"> login here</button>
+        </div>
+        <div id="sucessfullylogin" class="sucess"> </div>
+    </form>
+    <script src="login.js"></script>
+</body>
+
+</html>

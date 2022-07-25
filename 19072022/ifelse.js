@@ -15,3 +15,16 @@ function button() {
     }
     document.getElementById('result').innerHTML = result;
 }
+function multi() {
+    var number3 = parseInt(document.getElementById('n3').value);
+    var number4 = parseInt(document.getElementById('n4').value);
+    var ans ;
+    if (number3 * number4) {
+        ans = number3 * number4;
+    }
+   
+    else {
+        ans = "not o/p";
+    }
+    document.getElementById('output').innerHTML = ans;
+}

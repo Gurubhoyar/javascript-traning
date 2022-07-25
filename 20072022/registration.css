@@ -1,0 +1,40 @@
+.errortext{
+    color: red;
+}
+.input-text{
+    
+padding: 20px;
+}
+.button{
+    width: 100px;
+float: right;
+}
+.form{
+    display: flex;
+    margin: 0 auto;
+    width: 700px;
+    border: 1px solid gray;
+    text-align: left;
+    border-radius: 20px;
+}
+.left{
+    border-right: 1px solid gray;
+}
+.title{
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+label{
+    text-transform: uppercase;
+}
+input{
+    padding: 5px;
+}
+h1{
+    font-family: cursive;
+}
+.submit{
+    background-color: black;
+    color: white;
+}

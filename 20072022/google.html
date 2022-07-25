@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>google form</title>
+    <link rel="stylesheet" href="google.css">
+</head>
+
+<body>
+    <div class="block1">
+
+        <div class="block1-content">
+            <div class="left-block ">
+                <div class="logo"><img src="photos/glogo.png" alt=""></div>
+                <div class="creat-text">Creat Your Google Account</div>
+                <p class=" firsttext">to continue to Gmail</p>
+                <form class="forminput">
+                    <div class="form-input1 block-input">
+                        <div><input type="text" placeholder="First name" class="input-right" id="firstname">
+                            <div id="firsterror" class="error-block"></div>
+                        </div>
+                        <div><input type="text" placeholder="Last name" id="lastname">
+                            <div id="seconderror" class="error-block"></div>
+                        </div>
+                    </div>
+                    <div class="user"><input type="text" placeholder="Username" class="username-input" id="username">
+                        <div id="thirderror" class="error-block"></div>
+                    </div>
+                    <p class="smalltext">You can use letter, numbers & periods</p>
+                    <div class="form-input1 block-input">
+                        <div><input type="password" placeholder="Password" class="input-right" id="password">
+                            <div id="fourtherror" class="error-block"></div>
+                        </div>
+                        <div>
+                            <input type="password" placeholder="Confirm" id="confirm">
+                                <div id="fiftherror" class="error-block"></div>
+                        </div>
+                    </div>
+                    
+                    <p class="smalltext">Use 8 or more characters with mix of letter, number & <br> symbols</p>
+                    <div><input type="checkbox" /> <label>Show password</label></div>
+
+                </form>
+
+                <div class="last-line"><span>Sign in instead</span><span class=""><button onclick="next()" type="button"
+                            class="next">Next</button></span></div>
+
+            </div>
+
+            <div class="right-block">
+                <img src="photos/img.png" alt="" width="" class="img-right">
+                <div>
+                    <p class="img-lower-text">One account. All of Google <br>Working for you.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="allerror" class="submit" style="display: none ;"></div>
+    <div class="block2">
+        <div class="last-block-footer"><select name="" id="">
+                <option value="">English (United Kingdon)</option>
+                <option value="">HINDI </option>
+                <option value="">MARATHI</option>
+            </select></div>
+        <div class="last-block-footer"><span>Help</span> <span>Privacy</span><span>Terms</span></div>
+    </div>
+    <script src="google.js"></script>
+</body>
+
+</html>

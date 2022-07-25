@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>login Registration form</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+
+<body>
+    <form><div class="title"><h1>Registration Form</h1></div>
+        <div class="form">
+            
+            <div class="left">
+                <div class="input-text">
+                    <label>Full Name</label>
+                    <input type="text" id="username" placeholder="Fullname" />
+                    <div id="usererror" class="errortext"></div>
+                </div>
+                <div class="input-text">
+                    <label> Address</label>
+                    <input type="text" id="address" placeholder="address" />
+                    <div id="addresserror" class="errortext"></div>
+                </div>
+                <div class="input-text">
+                    <label>Email</label>
+                    <input type="email" id="email" placeholder="sample@gmail" required="email" name="email" />
+                    <div id="mailerror" class="errortext"></div>
+                </div>
+                <div class="input-text">
+                    <label> Mobile no.</label>
+                    <input type="number" id="mobile" placeholder="mobile no." />
+                    <div id="noerror" class="errortext"></div>
+                </div>
+
+            </div>
+            <div class="right">
+
+                <div class="input-text">
+                    <label> Country</label>
+                    <input type="text" id="country" placeholder="Country" />
+                    <div id="countryerror" class="errortext"></div>
+                </div>
+                <div class="input-text">
+                    <label> ZIP CODE</label>
+                    <input type="number" id="zip" placeholder="zip code" />
+                    <div id="ziperror" class="errortext"></div>
+                </div>
+                <div class="details">
+                   
+                    <button type="button" onclick="button()" class="button">submit</button>
+                    
+                    <script src="registration.js"></script>
+                </div>
+                <div id="allerror" class="submit"></div>
+            </div>
+            
+    </form>
+
+    
+</body>
+
+
+
+</html>

@@ -1,0 +1,34 @@
+form{
+    background-color: gray;
+    max-width: 500px;
+    margin: 0 auto;
+    
+    box-shadow: 0px 0px 10px 0px greenyellow;
+    
+}
+.input-text{
+    padding: 20px;
+}
+.sucess{
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.errortext{
+    background-color: aliceblue;
+    color: red;
+    border-radius: 30px;
+    text-align: center;
+
+}
+label{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: crimson;
+}
+h1{
+    font-family: cursive;
+    color: chartreuse;
+    text-align: center;
+}

@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  background-color: #f4f5f9; }
+
+.page {
+  width: 1366px;
+  margin: 0 auto;
+  background-color: lightgray; }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  background-color: #015172;
+  color: white;
+  padding: 0px 10px; }
+
+.nav-link {
+  display: inline-block;
+  padding: 7px 10px; }
+
+.input {
+  background-color: white; }
+
+input {
+  height: 15px;
+  outline: none;
+  border: none;
+  border-left: 1px solid black !important; }
+
+ul {
+  padding: 0px;
+  margin: 0px; }
+
+.logo {
+  background-color: white;
+  border-bottom: .5px solid gray;
+  padding: 10px 20px; }
+
+.main-links {
+  text-align: center;
+  background-color: white; }
+
+.main-link-ul {
+  margin: 0px; }
+
+.main-link {
+  display: inline-block;
+  padding: 10px;
+  font-size: 10px;
+  color: #015172;
+  font-weight: 900; }
+
+.about-heading {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px; }
+
+.about-heading1 {
+  margin: 4px;
+  text-align: center;
+  font-size: 17px; }
+
+.about-content {
+  padding-top: 97px;
+  margin-top: 10px;
+  background-color: white;
+  padding-bottom: 20px; }
+
+.about-info {
+  display: flex;
+  justify-content: center; }
+
+.about-img {
+  text-align: center; }
+
+.about-content1 {
+  padding: 20px 70px;
+  font-size: 12px;
+  margin: 30px; }
+
+.aboutimage {
+  width: 40px; }
+
+.years {
+  display: flex; }
+
+.caption {
+  color: #007fb9; }
+
+.iconarrow {
+  padding-left: 8px; }
