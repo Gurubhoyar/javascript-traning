@@ -7,7 +7,7 @@ body{
 .page{
     width: 1366px;
     margin: 0 auto;
-    background-color:lightgray;
+    background-color:#f4f5f9;
 }
 .nav{
     display: flex;
@@ -38,6 +38,9 @@ ul{
     background-color: white;
     border-bottom: .5px solid gray;
     padding: 10px 20px;
+}
+main{
+    background-color: white;
 }
 .main-links{
     text-align: center;
@@ -87,7 +90,8 @@ ul{
 }
 .years{
     display: flex;
-    padding: 60px 100px;
+    margin: 63px 100px;
+    justify-content: center;
 }
 .caption{
     color: #007fb9;
@@ -97,4 +101,104 @@ ul{
 }
 .years-img{
     width: 300px;
+}
+.years-information{
+    padding: 20px 60px;
+}
+.sub-heading{
+    margin: 0;
+}
+.years-heading{
+    margin: 0;
+    font-size: 25px;
+}
+.read{
+    padding-top: 30px;
+    font-size: small;
+}
+.images-news{
+    display: flex;
+}
+.parasection{
+background-color: white;
+}
+.para{
+    padding: 100px 0px;
+}
+.para p {
+    margin: 0px;
+    text-align: center;
+}
+.para1{
+    font-size: 25px;
+    font-weight: 900;
+}
+.para2{
+    font-size: larger;
+}
+.lastsection{
+    background-color: white;
+}
+.last-block{
+width: 1111px;
+margin: 0 auto;
+background-color: white;
+}
+.last-block1{
+    display: flex;
+    background-color: #f4f5f9;
+    justify-content: space-around;
+}
+.last-block1 p{
+    margin: 0px;
+   
+}
+.lastblock-cotent{
+    text-align: center;
+        margin: 0px 39px;
+
+}
+.lastblock-heading{
+    font-size: 18px;
+    font-weight: 900;
+    padding: 25px 0px 20px;
+}
+.percent{
+    font-size: 60px;
+    padding: 20px 0px;
+}
+.percent-heading{
+    font-size: larger;
+    padding-top: 52px;
+}
+.percent-subheading{
+    font-size: 12px;
+}
+.percent-subsubheading{
+    font-size: 8px;
+}
+.block1of2{
+    background-color: #007fb9;
+    color: white;
+}
+.heading2{
+padding-top: 10px!important;
+}
+.hrimg{
+    height: 165px;
+}
+.find{
+    display: flex;
+    justify-content: center;
+    color: #007fb9;
+    padding: 70px 0px;
+}
+.find-doc{
+    padding-right: 10px;
+    background-color: #015172;
+    color: white;
+}
+.find-block{
+    padding: 10px;
+    margin-right: 10px;
 }

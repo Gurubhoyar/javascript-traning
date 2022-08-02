@@ -1,0 +1,16 @@
+.divslide{
+    border: 1px solid gray;
+    padding: 0 10px;
+    border-radius: 50%;
+    margin: 0 10px;
+    
+}
+#result img{
+    width: 300px;
+}
+button{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 20px;
+    margin: 10px;
+}
